@@ -57,10 +57,11 @@ public class MainActivity extends SherlockFragmentActivity implements
         public void handleMessage(Message message) {
             if (mActivity != null && mRefreshButton != null) {
                 if (message.arg1 == MESSAGE) {
+                    if (mRefreshButton != null) {
+                        mRefreshButton.get().setEnabled(true);
 
-                    mRefreshButton.get().setEnabled(true);
-
-                    mRefreshButton.get().setIcon(mActivity.get().getResources().getDrawable(R.drawable.refresh_2));
+                        mRefreshButton.get().setIcon(mActivity.get().getResources().getDrawable(R.drawable.refresh_2));
+                    }
                 } else if (message.arg1 == MESSAGE2) {
 
                 }

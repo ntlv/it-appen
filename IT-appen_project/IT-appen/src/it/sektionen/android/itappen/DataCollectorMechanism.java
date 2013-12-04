@@ -354,6 +354,7 @@ public class DataCollectorMechanism extends IntentService {
 				BufferedReader reader = null;
 
 				try {
+                    if(answer != null)
 					reader = new BufferedReader(new InputStreamReader(answer
 							.getEntity().getContent()));
 				} catch (IllegalStateException e) {
@@ -368,6 +369,10 @@ public class DataCollectorMechanism extends IntentService {
 				} catch (IOException e) {
 					Log.e(LOG_TAG, Log.getStackTraceString(e));
 				}
+
+                if(dataString == null){
+                    return;
+                }
 
 				ScheduleDatabaseHelper dbHelper = new ScheduleDatabaseHelper(
 						DataCollectorMechanism.this);
