@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:weightSum="3"
+    android:background="@drawable/drop_shadow"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingEnd="10dp"
+        android:clickable="false"
+        android:focusable="false">
+
+        <TextView
+            android:id="@+id/event_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course name"
+            android:textColor="@android:color/black"
+
+            android:maxLines="3"
+            android:textSize="15sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/event_programs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="programs"
+            android:textColor="@android:color/black"
+
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/event_course_groups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course groups"
+            android:textColor="@android:color/black"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/event_programs"
+            android:maxLines="3"
+            android:layout_alignRight="@+id/event_programs"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/event_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comment"
+            android:textColor="@android:color/black"
+            android:maxLines="3"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/event_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="teacher"
+            android:paddingBottom="5dp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentLeft="true"
+
+            android:maxLines="3"
+            android:gravity="right" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="2"
+        android:layout_height="fill_parent"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:maxLines="3"
+            android:paddingBottom="5dp"
+            android:gravity="right"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/event_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="locations"
+            android:paddingBottom="5dp"
+            android:textColor="@android:color/black"
+            android:maxLines="3"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/event_moment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="moment"
+            android:textColor="@android:color/black"
+            android:paddingBottom="5dp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="true"
+
+            android:maxLines="3"
+            android:gravity="right" />
+
+    </LinearLayout>
+</LinearLayout>

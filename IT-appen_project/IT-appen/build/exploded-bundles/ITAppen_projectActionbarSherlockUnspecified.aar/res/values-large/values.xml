@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/love/it-appen/IT-appen_project/ActionbarSherlock/res/values-large/abs__dimens.xml -->
+    <eat-comment />
+
+    <item name="abs__dialog_min_width_major" type="dimen">55%</item>
+    <item name="abs__dialog_min_width_minor" type="dimen">80%</item>
+
+</resources>

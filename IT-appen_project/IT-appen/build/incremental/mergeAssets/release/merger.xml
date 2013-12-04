@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ITAppen_projectActionbarSherlockUnspecified.aar" >
+        <source path="/home/love/it-appen/IT-appen_project/IT-appen/build/exploded-bundles/ITAppen_projectActionbarSherlockUnspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/love/it-appen/IT-appen_project/IT-appen/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/love/it-appen/IT-appen_project/IT-appen/build-types/release/assets" />
+    </dataSet>
+
+</merger>

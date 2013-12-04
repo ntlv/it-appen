@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_card"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/boardMemberList"
+        android:layout_width="fill_parent"
+        android:dividerHeight="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:divider="@null"
+        android:layout_height="wrap_content"
+        android:clickable="false">
+    </ListView>
+
+</LinearLayout><!-- From: file:/home/love/it-appen/IT-appen_project/IT-appen/res/layout/board_fragment.xml -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/date_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drop_shadow"
+    android:layout_marginBottom="6dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:text="@string/event_time"
+    android:gravity="center_vertical|center_horizontal"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@android:color/black" />
+<!-- From: file:/home/love/it-appen/IT-appen_project/IT-appen/res/layout/date_header.xml -->

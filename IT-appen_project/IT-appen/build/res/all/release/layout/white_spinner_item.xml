@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="#324D71"
+    android:hint="Välj en vy!"
+    android:padding="7dp"
+    android:text="@string/hello_world"
+    android:textColor="#FFFFFF"
+    android:textSize="25sp" />
+
+<!-- From: file:/home/love/it-appen/IT-appen_project/IT-appen/res/layout/white_spinner_item.xml -->

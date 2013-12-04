@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/love/it-appen/IT-appen_project/ActionbarSherlock/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/love/it-appen/IT-appen_project/ActionbarSherlock/build-types/release/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.actionbarsherlock.internal.widget.IcsSpinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:paddingRight="20dp"
+        android:textColor="#FFFFFF" />
+
+    <!-- <item
+        android:id="@+id/ddg"
+        android:icon="@drawable/abs__btn_cab_done_holo_light"
+        android:showAsAction="collapseActionView"
+        android:title="test 1"/>
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/abs__btn_cab_done_holo_light"
+        android:showAsAction="never"
+        android:title="test 2"/> -->
+
+</menu><!-- From: file:/home/love/it-appen/IT-appen_project/IT-appen/res/menu/class_spinner.xml -->
