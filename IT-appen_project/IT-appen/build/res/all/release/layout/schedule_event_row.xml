@@ -71,7 +71,7 @@
             android:layout_alignParentLeft="true"
 
             android:maxLines="3"
-            android:gravity="right" />
+            android:gravity="left" />
 
 
     </LinearLayout>

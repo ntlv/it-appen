@@ -4,6 +4,8 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
+    android:text="test"
+    android:paddingLeft="7dp"
     android:textColor="#FFFFFF"
-    android:textSize="20sp" />
+    android:textAppearance="@android:style/TextAppearance.Large"/>
 <!-- From: file:/home/love/it-appen/IT-appen_project/IT-appen/res/layout/white_spinner_header.xml -->

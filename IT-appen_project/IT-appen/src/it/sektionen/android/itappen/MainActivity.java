@@ -77,6 +77,7 @@ public class MainActivity extends SherlockFragmentActivity implements
         actionBar = getSupportActionBar();
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+        actionBar.setIcon(android.R.color.transparent);
         updateAll(false);
         initializePager();
 
