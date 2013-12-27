@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+
+
+        
+    </style>
+
+    <style name="Widget.MyTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/it_dark_blue</item>
+        <item name="background">@color/it_dark_blue</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+
+    </style>
+
+</resources>
